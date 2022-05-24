@@ -30,4 +30,13 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-export * from './dynamic-programming/max-subset-sum-no-adjacent.test'
+import test from 'ava'
+
+import { maxSubsetSumNoAdjacent } from '../../src'
+
+test('max-subset-sum-no-adjacent', async t => {
+  const data = [ 75, 105, 120, 75, 90, 135 ]
+  const target = 330
+  const result = maxSubsetSumNoAdjacent(data)
+  t.is(target, result)
+})
