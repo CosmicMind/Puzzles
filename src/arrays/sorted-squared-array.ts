@@ -37,6 +37,9 @@
  * in ascending order and returns a new array of the same length with the
  * squares of the original integers also sorted in ascending order.
  *
+ * Optimal Space & Time Complexity
+ * O(n) time | O(n) space - where n is the length of the input array
+ *
  * Sample Input
  * (1) [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
  * (2) [ -50, -13, -2, -1, 0, 0, 1, 1, 2, 3, 19, 20 ]

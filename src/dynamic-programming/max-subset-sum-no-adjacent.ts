@@ -34,9 +34,11 @@
  * Max Subset Sum No Adjacent
  *
  * Write a function that takes in an array of positive integers and returns
- * the maximum sum of non-adjacent elements in the array.
+ * the maximum sum of non-adjacent elements in the array. If the input array
+ * is empty, the function should return.
  *
- * If the input array is empty, the function should return.
+ * Optimal Space & Time Complexity
+ * O(n) time | O(1) space - where n is the length of the input array
  *
  * Sample Input
  * (1) [ 75, 105, 120, 75, 90, 135 ]
