@@ -45,7 +45,7 @@
  * (2) [ -50, -13, -2, -1, 0, 0, 1, 1, 2, 3, 19, 20 ]
  */
 
-export function sortedSquaredArray(array: number[]) {
+export function sortedSquaredArray(array: number[]): number[] {
     const squared = []
     let i = 0
     let l = array.length - 1
