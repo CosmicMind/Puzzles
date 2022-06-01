@@ -30,4 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-export { maxSubsetSumNoAdjacent } from './dynamic-programming/max-subset-sum-no-adjacent'
+export {
+    maxSubsetSumNoAdjacent,
+    sortedSquaredArray,
+} from './internal'

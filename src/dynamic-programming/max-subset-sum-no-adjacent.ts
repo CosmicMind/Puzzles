@@ -39,23 +39,24 @@
  * If the input array is empty, the function should return.
  *
  * Sample Input
- * array: [ 75, 105, 120, 75, 90, 135 ]
+ * (1) [ 75, 105, 120, 75, 90, 135 ]
+ * (2) [ 30, 25, 50, 55, 100, 120 ]
  */
 
 export function maxSubsetSumNoAdjacent(array: number[]): number {
-  let a = 0
-  let b = 0
-  let c = 0
-  let i = 0
+    let a = 0
+    let b = 0
+    let c = 0
+    let i = 0
 
-  const l = array.length
+    const l = array.length
 
-  while (i < l) {
-    a = Math.max(b, c + array[i])
-    c = b
-    b = a
-    ++i
-  }
+    while (i < l) {
+        a = Math.max(b, c + array[i])
+        c = b
+        b = a
+        ++i
+    }
 
-  return a
+    return a
 }

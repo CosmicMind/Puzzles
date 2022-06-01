@@ -30,4 +30,5 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+export * from './arrays/sorted-squared-array.test'
 export * from './dynamic-programming/max-subset-sum-no-adjacent.test'
