@@ -32,3 +32,4 @@
 
 export * from './arrays/sorted-squared-array.test'
 export * from './dynamic-programming/max-subset-sum-no-adjacent.test'
+export * from './dynamic-programming/longest-increasing-subsequence.test'

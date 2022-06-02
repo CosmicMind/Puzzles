@@ -30,5 +30,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-export {sortedSquaredArray} from './arrays/sorted-squared-array'
-export {maxSubsetSumNoAdjacent} from './dynamic-programming/max-subset-sum-no-adjacent'
+export { sortedSquaredArray } from './arrays/sorted-squared-array'
+export { maxSubsetSumNoAdjacent } from './dynamic-programming/max-subset-sum-no-adjacent'
+export { longestIncreasingSubsequence } from './dynamic-programming/longest-increasing-subsequence'
+export { staircaseTraversal } from './dynamic-programming/staircase-traversal'

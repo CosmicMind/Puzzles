@@ -46,19 +46,19 @@
  */
 
 export function maxSubsetSumNoAdjacent(array: number[]): number {
-    let a = 0
-    let b = 0
-    let c = 0
-    let i = 0
+  let a = 0
+  let b = 0
+  let c = 0
+  let i = 0
 
-    const l = array.length
+  const l = array.length
 
-    while (i < l) {
-        a = Math.max(b, c + array[i])
-        c = b
-        b = a
-        ++i
-    }
+  while (i < l) {
+    a = Math.max(b, c + array[i])
+    c = b
+    b = a
+    ++i
+  }
 
-    return a
+  return a
 }

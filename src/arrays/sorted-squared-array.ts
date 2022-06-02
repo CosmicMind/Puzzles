@@ -46,27 +46,27 @@
  */
 
 export function sortedSquaredArray(array: number[]): number[] {
-    const squared = []
-    let i = 0
-    let l = array.length - 1
-    let a = 0
-    let b = 0
-    let idx = 0
+  const squared = []
+  let i = 0
+  let l = array.length - 1
+  let a = 0
+  let b = 0
+  let idx = 0
 
-    while (i <= l) {
-        a = Math.pow(array[i], 2)
-        b = Math.pow(array[l], 2)
+  while (i <= l) {
+    a = Math.pow(array[i], 2)
+    b = Math.pow(array[l], 2)
 
-        idx = l - i
+    idx = l - i
 
-        if (a < b) {
-            squared[idx] = b
-            --l
-        } else {
-            squared[idx] = a
-            ++i
-        }
+    if (a < b) {
+      squared[idx] = b
+      --l
+    } else {
+      squared[idx] = a
+      ++i
     }
+  }
 
-    return squared
+  return squared
 }

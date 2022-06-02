@@ -31,6 +31,11 @@
  */
 
 export {
-    maxSubsetSumNoAdjacent,
-    sortedSquaredArray,
+  // arrays
+  sortedSquaredArray,
+
+  // dynamic programming
+  longestIncreasingSubsequence,
+  maxSubsetSumNoAdjacent,
+  staircaseTraversal,
 } from './internal'
