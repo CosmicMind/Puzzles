@@ -62,7 +62,8 @@ export function sortedSquaredArray(array: number[]): number[] {
     if (a < b) {
       squared[idx] = b
       --l
-    } else {
+    }
+    else {
       squared[idx] = a
       ++i
     }
