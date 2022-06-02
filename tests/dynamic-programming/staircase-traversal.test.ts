@@ -32,18 +32,20 @@
 
 import test from 'ava'
 
-import { maxSubsetSumNoAdjacent } from '../../src'
+import { staircaseTraversal } from '../../src'
 
-test('max-subset-sum-no-adjacent: test 1', async t => {
-  const data = [ 75, 105, 120, 75, 90, 135 ]
-  const expected = 330
-  const result = maxSubsetSumNoAdjacent(data)
+test('staircase-traversal: test 1', async t => {
+  const height = 4
+  const maxSteps = 2
+  const expected = 5
+  const result = staircaseTraversal(height, maxSteps)
   t.is(expected, result)
 })
 
-test('max-subset-sum-no-adjacent: test 2', async t => {
-  const data = [ 30, 25, 50, 55, 100, 120 ]
-  const expected = 205
-  const result = maxSubsetSumNoAdjacent(data)
+test('staircase-traversal: test 2', async t => {
+  const height = 6
+  const maxSteps = 3
+  const expected = 24
+  const result = staircaseTraversal(height, maxSteps)
   t.is(expected, result)
 })

@@ -54,6 +54,22 @@
  */
 
 export function staircaseTraversal(height: number, maxSteps: number): number {
-  // Write your code here.
-  return -1;
+  let numOfWays = 0
+
+  const waysToTop: number[] = []
+  waysToTop[0] = 1
+
+  for (let i = 1, l = height + 1; i <= l; ++i) {
+    const startOfWindow = i - maxSteps - 1
+    const endOfWindow = i - 1
+
+    if (0 <= startOfWindow) {
+      numOfWays -= waysToTop[startOfWindow]
+    }
+
+    numOfWays += waysToTop[endOfWindow]
+    waysToTop.push(numOfWays)
+  }
+
+  return waysToTop[height]
 }
