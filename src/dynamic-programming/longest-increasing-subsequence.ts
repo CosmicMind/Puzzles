@@ -53,7 +53,7 @@
  * (2) [ 100, 1, 2, 3, 4, 101 ]
  */
 
-export function longestIncreasingSubsequence(array: number[]): number[] {
+export function longestIncreasingSubsequence(): number[] {
 
   return [ -1 ]
 }
