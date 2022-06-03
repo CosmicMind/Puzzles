@@ -1,5 +1,5 @@
 /**
- * BSD 3-Clause License
+* BSD 3-Clause License
  *
  * Copyright (c) 2022, Daniel Jonathan <daniel at cosmicverse dot org>
  * All rights reserved.
@@ -54,8 +54,8 @@ export function sortedSquaredArray(array: number[]): number[] {
   let idx = 0
 
   while (i <= l) {
-    a = Math.pow(array[i], 2)
-    b = Math.pow(array[l], 2)
+    a = array[i] ** 2
+    b = array[l] ** 2
 
     idx = l - i
 

@@ -34,14 +34,14 @@ import test from 'ava'
 
 import { sortedSquaredArray } from '../../src/internal'
 
-test('sorted-squared-array: test 1', async t => {
+test('sorted-squared-array: test 1', t => {
   const data = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
   const expected = [ 1, 4, 9, 16, 25, 36, 49, 64, 81 ]
   const result = sortedSquaredArray(data)
   t.deepEqual(expected, result)
 })
 
-test('sorted-squared-array: test 2', async t => {
+test('sorted-squared-array: test 2', t => {
   const data = [ -50, -13, -2, -1, 0, 0, 1, 1, 2, 3, 19, 20 ]
   const expected = [ 0, 0, 1, 1, 1, 4, 4, 9, 169, 361, 400, 2500 ]
   const result = sortedSquaredArray(data)

@@ -34,7 +34,7 @@ import test from 'ava'
 
 import { staircaseTraversal } from '../../src'
 
-test('staircase-traversal: test 1', async t => {
+test('staircase-traversal: test 1', t => {
   const height = 4
   const maxSteps = 2
   const expected = 5
@@ -42,7 +42,7 @@ test('staircase-traversal: test 1', async t => {
   t.is(expected, result)
 })
 
-test('staircase-traversal: test 2', async t => {
+test('staircase-traversal: test 2', t => {
   const height = 6
   const maxSteps = 3
   const expected = 24
