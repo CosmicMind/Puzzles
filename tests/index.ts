@@ -33,3 +33,4 @@
 export * from './arrays/sorted-squared-array.test'
 export * from './dynamic-programming/max-subset-sum-no-adjacent.test'
 export * from './dynamic-programming/staircase-traversal.test'
+export * from './recursion/insertion-sort-recursive.test'

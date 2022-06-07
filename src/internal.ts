@@ -30,7 +30,13 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+// arrays
 export { sortedSquaredArray } from './arrays/sorted-squared-array'
+
+// dynamic programming
 export { maxSubsetSumNoAdjacent } from './dynamic-programming/max-subset-sum-no-adjacent'
 export { longestIncreasingSubsequence } from './dynamic-programming/longest-increasing-subsequence'
 export { staircaseTraversal } from './dynamic-programming/staircase-traversal'
+
+// recursion
+export { insertionSortRecursive } from './recursion/insertion-sort-recursive'

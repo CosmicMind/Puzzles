@@ -30,15 +30,22 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-export {
-  // arrays
-  sortedSquaredArray,
+import test from 'ava'
 
-  // dynamic programming
-  longestIncreasingSubsequence,
-  maxSubsetSumNoAdjacent,
-  staircaseTraversal,
+import { insertionSortRecursive } from '../../src/internal'
 
-  // recursion
-  insertionSortRecursive,
-} from './internal'
+test('insertion-sort-recursive: test 1', t => {
+  const data = [ 5, 2, 4, 6, 1, 3 ]
+  const expected = [ 1, 2, 3, 4, 5, 6 ]
+
+  insertionSortRecursive(data, data.length)
+  t.deepEqual(data, expected)
+})
+
+test('insertion-sort-recursive: test 2', t => {
+  const data = [ -5, 6, -2, 4, 6, 1, 3, 1, 5, 0 ]
+  const expected = [ -5, -2, 0, 1, 1, 3, 4, 5, 6, 6 ]
+
+  insertionSortRecursive(data, data.length)
+  t.deepEqual(data, expected)
+})
