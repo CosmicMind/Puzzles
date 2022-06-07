@@ -31,6 +31,8 @@
  */
 
 /**
+ * @module StaircaseTraversal
+ *
  * Staircase Traversal
  *
  * You're given two positive integers representing the height of a staircase

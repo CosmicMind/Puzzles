@@ -31,6 +31,8 @@
  */
 
 /**
+ * @module MaxSubsetSumNoAdjacent
+ *
  * Max Subset Sum No Adjacent
  *
  * Write a function that takes in an array of positive integers and returns

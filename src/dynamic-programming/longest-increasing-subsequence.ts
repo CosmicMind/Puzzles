@@ -31,6 +31,8 @@
  */
 
 /**
+ * @module LongestIncreasingSubsequence
+ *
  * Longest Increasing Subsequence
  *
  * Given a non-empty array of integers, write a function that returns the
@@ -46,7 +48,7 @@
  * You can assume that there will only be one longest increasing subsequence.
  *
  * Optimal Space & Time Complexity
- * O(nlogn) time | O(n) space - where n is the length of the input array
+ * O(n * log(n)) time | O(n) space - where n is the length of the input array
  *
  * Sample Input
  * (1) [ 5, 7, -24, 12, 10, 2, 3, 12, 5, 6, 35 ]

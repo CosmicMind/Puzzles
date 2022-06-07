@@ -31,6 +31,8 @@
  */
 
 /**
+ * @module SquaredArray
+ *
  * Sorted Squared Array
  *
  * Write a function that takes in a non-empty array of integers that are sorted
