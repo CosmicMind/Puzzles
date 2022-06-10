@@ -35,7 +35,7 @@
  *
  * Insertion Sort Recursive
  *
- * Run Time: O(n^2)
+ * @performance O(n^2)
  *
  * Insertion sort is an `in place` sorting algorithm that holds a constant number
  *  of keys outside the sequence at any given time.
