@@ -1,16 +1,16 @@
 {
-  "name": "@cosmicverse/puzzles",
+  "name": "@cosmicmind/puzzles",
   "version": "0.0.1-rc-a",
   "description": "",
   "keywords": [],
   "author": {
     "name": "Daniel Jonathan",
-    "email": "daniel@cosmicverse.org"
+    "email": "daniel@cosmicmind.org"
   },
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Cosmicverse/Puzzles.git"
+    "url": "https://github.com/CosmicMind/Puzzles.git"
   },
   "type": "module",
   "main": "dist/lib.es.js",
